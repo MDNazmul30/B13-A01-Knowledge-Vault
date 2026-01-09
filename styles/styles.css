@@ -50,6 +50,7 @@ nav {
     font-weight: 600;
     border-radius: 4px;
     cursor: pointer;
+    background-color: ;
 }
 
 /* HERO SECTION */
@@ -200,12 +201,12 @@ nav {
 /* Challenge Section */
 .challenge {
     background-color: #F7F6F2;
-    color: white;
+    border-radius: 12px;
     padding: 80px 40px;
     text-align: center;
     width: 1360px;
     margin: 0px auto;
-    border: 0px 120px 120px 120px;
+    border: 100px solid white;
 }
 
 .challenge-container {
@@ -264,11 +265,13 @@ nav {
     display: flex;
     align-items: center;
     gap: 10px;
+    width: auto;
     
 }
 
 .footer-logo img {
-    width: 40px;
+    width: 140px;
+    height:60px; /* For square logos */
 }
 
 .footer-social h1{
