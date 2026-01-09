@@ -157,4 +157,44 @@ nav {
     color: #666;
 }
 
+/* Knowledge section container */
+.knowledge-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.knowledge-content h4 {
+    color: #469165;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.knowledge-content h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.knowledge-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #444;
+    line-height: 1.5;
+}
+
+.knowledge-content ul {
+    list-style: none;
+}
+
+.knowledge-content li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
 
